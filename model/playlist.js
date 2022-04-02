@@ -1,9 +1,9 @@
-class playlist {
+class Playlist {
 
-    constructor(id,nombre){
+    constructor(id,nombre, canciones){
         this.id = id;
         this.nombre = nombre;
-        this.canciones=[];
+        this.canciones=canciones;
     }
 
     agregar = (nombreSong,artistaSong,albumSong) => {
@@ -25,6 +25,10 @@ class playlist {
     
 
     };
+
+    drawPlaylist(){
+
+    }
 
 
 }
